@@ -3,7 +3,7 @@ package lv.belyaeva.oxana.medical.management.system.oodp.creational.singleton;
 public class MedicineLogger {
 
     private static MedicineLogger medicineLogger;
-    private static String log = "\nThis is log file. \n\n";
+    private static String log = "\nThis is a log file. \n\n";
 
     public static synchronized MedicineLogger getMedicineLogger() {
         if (medicineLogger == null) {

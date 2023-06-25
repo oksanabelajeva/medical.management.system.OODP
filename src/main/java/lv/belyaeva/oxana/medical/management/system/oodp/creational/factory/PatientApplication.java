@@ -6,8 +6,6 @@ public class PatientApplication {
         PatientFactory patientFactory = createPatientByAge(150);
         Patient patient = patientFactory.createPatient();
         patient.informAboutMedicineDose();
-
-
     }
 
     static PatientFactory createPatientByAge(int age) {

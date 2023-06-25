@@ -4,6 +4,6 @@ public class PatientChild implements Patient {
 
     @Override
     public void informAboutMedicineDose() {
-        System.out.println("Child should take a half of standard dose of the medicine.");
+        System.out.println("A child should take a half of a standard dose of the medicine.");
     }
 }
