@@ -16,8 +16,7 @@ public class MedicalWorkersTeam {
 
     public void treatPatient() {
         System.out.println("All team of medical workers treats the patient.");
-        for (MedicalWorker medicalWorker : medicalWorkersTeam
-        ) {
+        for (MedicalWorker medicalWorker : medicalWorkersTeam) {
             medicalWorker.treatPatient();
         }
     }
